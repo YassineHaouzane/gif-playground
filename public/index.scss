@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.gif-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    min-height: 90%;
+    overflow: auto;
+    & > .gif {
+        width: 45%;
+        margin: 7px;
+    }
+    .gif-content {
+        height: 200px;
+        width: 100%;
+    }
+}
